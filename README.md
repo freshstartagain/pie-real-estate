@@ -31,5 +31,5 @@ A Real Estate listing web app created using Django and DRF.
 # Todo
 - [ ] Improve documentation. Create cloning and installation guide.
 - [ ] Create a frontend app, using Vue or React.
-- [ ] Create clearer guide on using the API endpoints.
+- [ ] Create a clearer guide on using the API endpoints.
 
