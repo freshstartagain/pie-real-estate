@@ -1,0 +1,51 @@
+:root {
+  --primary: #564946;
+  --secondary: #558564;
+  --dark: #161925;
+  --light: #95f9e3;
+}
+
+#header {
+  height: 50px;
+  background: var(--primary);
+}
+
+#branding h1 {
+  color: var(--branding-color);
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+  background: var(--primary);
+}
+
+a:link,
+a:visited {
+  color: var(--dark);
+}
+
+div.breadcrumbs {
+  background: var(--secondary);
+}
+
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button,
+.submit-row input.default {
+  background: var(--primary);
+  color: var(--light);
+}
+
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.submit-row input:hover,
+a.button:hover,
+.submit-row input.default:hover {
+  background: var(--secondary);
+}
+
+/* @media(max) */
